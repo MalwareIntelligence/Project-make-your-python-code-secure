@@ -1,0 +1,313 @@
+# MIPL Compiler Project - .gitignore
+
+# ═══════════════════════════════════════════════════════════
+# Compiled Executables
+# ═══════════════════════════════════════════════════════════
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.app
+
+# ═══════════════════════════════════════════════════════════
+# Compiled MIPL Files (Security - Never Commit!)
+# ═══════════════════════════════════════════════════════════
+*.cmipl
+*.mipl.enc
+*.mipl.encrypted
+
+# ═══════════════════════════════════════════════════════════
+# Source Files (Optional - Decide Based on Project)
+# ═══════════════════════════════════════════════════════════
+# Uncomment if you don't want to commit source MIPL files:
+# *.mipl
+
+# ═══════════════════════════════════════════════════════════
+# Object Files
+# ═══════════════════════════════════════════════════════════
+*.o
+*.obj
+*.lo
+*.slo
+*.ko
+*.elf
+
+# ═══════════════════════════════════════════════════════════
+# Precompiled Headers
+# ═══════════════════════════════════════════════════════════
+*.gch
+*.pch
+
+# ═══════════════════════════════════════════════════════════
+# Libraries
+# ═══════════════════════════════════════════════════════════
+*.lib
+*.a
+*.la
+*.lo
+*.lai
+
+# ═══════════════════════════════════════════════════════════
+# Debug Files
+# ═══════════════════════════════════════════════════════════
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.ilk
+
+# ═══════════════════════════════════════════════════════════
+# Visual Studio / MSVC
+# ═══════════════════════════════════════════════════════════
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.VC.db
+*.VC.opendb
+*.VC.VC.opendb
+
+# Visual Studio cache/options directory
+.vs/
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Visual Studio Trace Files
+*.e2e
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# ═══════════════════════════════════════════════════════════
+# CMake
+# ═══════════════════════════════════════════════════════════
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+build/
+out/
+cmake-build-*/
+
+# ═══════════════════════════════════════════════════════════
+# MinGW / GCC
+# ═══════════════════════════════════════════════════════════
+*.d
+*.map
+
+# ═══════════════════════════════════════════════════════════
+# Temporary Files
+# ═══════════════════════════════════════════════════════════
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+*.tmp.*
+*.temp.*
+
+# ═══════════════════════════════════════════════════════════
+# Audit Logs (Security Sensitive!)
+# ═══════════════════════════════════════════════════════════
+mipl_audit.log
+*.audit.log
+audit_*.log
+
+# ═══════════════════════════════════════════════════════════
+# Passwords / Keys (NEVER COMMIT THESE!)
+# ═══════════════════════════════════════════════════════════
+*.key
+*.pem
+*.cer
+*.crt
+*.p12
+*.pfx
+passwords.txt
+secrets.txt
+.env
+.env.local
+credentials.json
+
+# ═══════════════════════════════════════════════════════════
+# Test Files
+# ═══════════════════════════════════════════════════════════
+test_*.py
+test_*.mipl
+*_test.py
+*_test.mipl
+test_output/
+test_results/
+
+# ═══════════════════════════════════════════════════════════
+# Output Directories
+# ═══════════════════════════════════════════════════════════
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+dist/
+output/
+
+# ═══════════════════════════════════════════════════════════
+# Python (If Testing with Python Scripts)
+# ═══════════════════════════════════════════════════════════
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ═══════════════════════════════════════════════════════════
+# Operating System
+# ═══════════════════════════════════════════════════════════
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ═══════════════════════════════════════════════════════════
+# IDE / Editor
+# ═══════════════════════════════════════════════════════════
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+Session.vim
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+auto-save-list
+tramp
+
+# JetBrains IDEs (CLion, etc.)
+.idea/
+*.iml
+*.iws
+out/
+
+# Atom
+.atom/
+
+# ═══════════════════════════════════════════════════════════
+# Documentation Build
+# ═══════════════════════════════════════════════════════════
+docs/_build/
+site/
+*.pdf
+*.html
+
+# ═══════════════════════════════════════════════════════════
+# Package Managers
+# ═══════════════════════════════════════════════════════════
+vcpkg_installed/
+packages/
+node_modules/
+
+# ═══════════════════════════════════════════════════════════
+# Profiling / Performance
+# ═══════════════════════════════════════════════════════════
+*.prof
+*.gprof
+perf.data
+perf.data.old
+*.callgrind
+*.cachegrind
+
+# ═══════════════════════════════════════════════════════════
+# Valgrind / Memory Checking
+# ═══════════════════════════════════════════════════════════
+*.memcheck
+vgcore.*
+callgrind.out.*
+cachegrind.out.*
+
+# ═══════════════════════════════════════════════════════════
+# Core Dumps
+# ═══════════════════════════════════════════════════════════
+core
+core.*
+*.core
+*.dump
+
+# ═══════════════════════════════════════════════════════════
+# Archives (Optional)
+# ═══════════════════════════════════════════════════════════
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# ═══════════════════════════════════════════════════════════
+# Custom Build Artifacts
+# ═══════════════════════════════════════════════════════════
+*.manifest
+*.res
+*.rc.o
+
+# ═══════════════════════════════════════════════════════════
+# Security - Sensitive Data
+# ═══════════════════════════════════════════════════════════
+# Add any custom sensitive files here
+sensitive/
+private/
+confidential/
